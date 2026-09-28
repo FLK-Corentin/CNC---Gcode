@@ -98,7 +98,7 @@ jobs:
 
       # ── tauri-cli ──
       - name: install tauri-cli
-        run: cargo install tauri-cli --version "^2" --locked
+        run: cargo install tauri-cli --version "2.11.5" --locked
 
       # ── build the bundle ──
       - name: tauri build
